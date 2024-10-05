@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Sencillo Mejorado con Sonido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <button id="startButton" class="start-button">Iniciar Juego</button>
+        <div id="scoreBoard" class="score-board">Puntaje: 0</div>
+    </div>
+
+    <!-- Añadir archivos de sonido -->
+    <audio id="hitSound" src="sounds/hit.mp3"></audio>
+    <audio id="pointSound" src="sounds/point.mp3"></audio>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
+
